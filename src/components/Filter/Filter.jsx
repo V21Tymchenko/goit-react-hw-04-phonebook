@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FindContact, FindContactInput } from './Filter.styled';
+import { FindContact, FindContactInput } from './Filter.styled.jsx';
 
 const Filter = ({ value, onChange }) => {
   return (

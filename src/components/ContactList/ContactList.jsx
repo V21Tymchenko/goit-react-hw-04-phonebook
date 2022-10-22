@@ -8,7 +8,7 @@ import {
   ContactNumer,
   FindContactButton,
   ListItemContainer,
-} from './ContactList.styled';
+} from './ContactList.styled.jsx';
 
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (

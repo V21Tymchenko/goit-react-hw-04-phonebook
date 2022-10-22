@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { LabelForm, InputForm, FormButton } from './ContactForm.styled';
+import { LabelForm, InputForm, FormButton } from './ContactForm.styled.jsx';
 
 export default function ContactForm({ onSubmit }) {
   const [name, setName] = useState('');

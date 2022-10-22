@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from '../ContactForm';
 import ContactList from '../ContactList';
 import Filter from '../Filter';
-import { Box, Phonebook, Contacts, ContactContainer } from './App.styled';
+import { Box, Phonebook, Contacts, ContactContainer } from './App.styled.jsx';
 import toast, { Toaster } from 'react-hot-toast';
 
 export function App() {

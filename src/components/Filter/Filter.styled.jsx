@@ -7,7 +7,7 @@ export const FindContact = styled.label`
   text-align: center;
   margin-bottom: 30px;
 `;
-export const FindContactInput = styled.input`
+export const FindContactsInput = styled.input`
   font-family: inherit;
   font-size: 14px;
   margin-left: 15px;

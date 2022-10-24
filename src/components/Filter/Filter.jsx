@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FindContact, FindContactInput } from './Filter.styled.jsx';
+import { FindContact, FindContactsInput } from './Filter.styled.jsx';
 
 const Filter = ({ value, onChange }) => {
   return (
     <FindContact>
       Find contacts by name
-      <FindContactInput
+      <FindContactsInput
         type="text"
         value={value}
         onChange={onChange}
-      ></FindContactInput>
+      ></FindContactsInput>
     </FindContact>
   );
 };
